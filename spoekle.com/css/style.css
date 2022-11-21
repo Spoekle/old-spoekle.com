@@ -951,7 +951,7 @@ ul .active {
   color: #ffffff;
 }
 
-.socials_section .socials_social {
+.socials_section .socials_icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -961,7 +961,7 @@ ul .active {
   margin: 0 auto 20px auto;
 }
 
-.socials_section .socials_social img {
+.socials_section .socials_icon img {
   width: 40px;
   margin-left: 8px;
 }
