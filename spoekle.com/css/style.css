@@ -198,12 +198,6 @@ ul .active:hover:before {
   transition: 0.4s;
 }
 
-.dark-theme .header_section {
-  background-color: #191919;
-  padding: 10px 0px;
-  transition: 0.4s;
-}
-
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
