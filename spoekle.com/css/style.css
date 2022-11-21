@@ -64,15 +64,6 @@ body {
   transition: 0.5s;
 }
 
-.dark-theme .custom_heading-container hr {
-  width: 250px;
-  border: none;
-  height: 1.5px;
-  background-color: #101edc;
-  margin: 0 5px 0.5rem 5px;
-  transition: 0.5s;
-}
-
 /* navbar toggle thing*/
 .theme-switch {
   --background: rgb(59, 59, 59);
