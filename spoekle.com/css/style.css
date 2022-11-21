@@ -453,6 +453,8 @@ ul .active {
           transform: translate(0, -50%);
 }
 
+/*about section stuff css wee*/
+
 .about_section {
   font-family: "Poppins", sans-serif;
 }
@@ -494,6 +496,8 @@ ul .active {
   font-weight: bold;
   margin: 0;
 }
+
+/* end about section stuff css wee*/
 
 .service_section {
   position: relative;
@@ -599,24 +603,24 @@ ul .active {
   transition: 0.3s;
 }
 
-.portfolio_section {
+.video_section {
   font-family: "Poppins", sans-serif;
 }
 
-.portfolio_section .col-md-4 {
+.video_section .col-md-4 {
   padding: 0;
 }
 
-.portfolio_section .img-box {
+.video_section .img-box {
   position: relative;
   margin: 10px;
 }
 
-.portfolio_section .img-box img {
+.video_section .img-box img {
   width: 100%;
 }
 
-.portfolio_section .img-box a {
+.video_section .img-box a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -940,14 +944,14 @@ ul .active {
   background-image: url(../images/envelope.png);
 }
 
-.info_section {
+.socials_section {
   text-align: center;
   font-family: "Poppins", sans-serif;
   background-color: #191919;
   color: #ffffff;
 }
 
-.info_section .info_social {
+.socials_section .socials_social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -957,12 +961,12 @@ ul .active {
   margin: 0 auto 20px auto;
 }
 
-.info_section .info_social img {
+.socials_section .socials_social img {
   width: 40px;
   margin-left: 8px;
 }
 
-.info_section p {
+.socials_section p {
   margin: 35px 0 0 0;
 }
 
