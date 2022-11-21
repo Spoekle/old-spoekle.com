@@ -1,14 +1,7 @@
-:root {
-  --background: rgb(0, 0, 0);
-  --text: rgb(0, 0, 0);
-  --highlight: #ffffff;
-  --active: rgb(75, 255, 243);
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #000000;
-  background: white;
+  background: rgb(80, 76, 76);
   transition: 0.4s background ease;
 }
 
@@ -65,29 +58,6 @@ body {
 }
 
 /* navbar toggle thing*/
-.theme-switch {
-  --background: rgb(59, 59, 59);
-  --text: linear-gradient(135deg, #1717d8, #1d42f8);
-  color: var(--text);
-  width: 70px;
-  height: 30px;
-  background: linear-gradient(135deg, #790e0e, #d53c41);
-  border-radius: 50px;
-  position: relative;
-  top: 6px
-}
-
-.theme-switch .switch {
-  background: rgb(24, 24, 24);
-  width: 24px;
-  height: 24px;
-  background: #dbdada;
-  border-radius: 100%;
-  position: absolute;
-  top: 3px;
-  left: 4px;
-  transition: 0.5s all ease 
-}
 
 .dark-theme {
   --background: rgb(80, 76, 76);
