@@ -344,9 +344,9 @@ ul .active {
 .about_section a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #000000;
-  border: 1px solid #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
   border-radius: 15px;
   margin-top: 45px;
   transition: 0.3s;
@@ -354,7 +354,7 @@ ul .active {
 
 .about_section a:hover {
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -431,7 +431,7 @@ ul .active {
 
 .service_section .box .name h6 {
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -466,16 +466,16 @@ ul .active {
 .service_section .read-btn a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #000000;
-  border: 1px solid #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
   border-radius: 15px;
   transition: 0.3s;
 }
 
 .service_section .read-btn a:hover {
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
   transition: 0.3s;
 }
 
