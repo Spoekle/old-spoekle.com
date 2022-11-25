@@ -408,6 +408,10 @@ ul .active {
   margin-top: 45px;
 }
 
+.cats_section .img-box {
+width: 50%;
+}
+
 .cats_section .img-box img {
   width: 100%;
 }
