@@ -68,6 +68,23 @@
     height: 100%;
   }
 
+  .specs_section .specs_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .specs_section .box {
+    margin: 25px;
+  }
+
+  .specs_section .box .name h6 {
+    color: #ffffff;
+  }
+
+  .specs_section::before {
+    height: 100%;
+  }
+
   .portfolio_section {
     padding-top: 75px;
   }
