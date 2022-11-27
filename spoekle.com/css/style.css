@@ -767,34 +767,17 @@ width: 100%;
           align-items: center;
 }
 
-.button_thingy a {
-  color: #ffffff;
-  border-radius: 50px;
-  transition: 0.3s;
-}
 
-.button_thingy .previous {
-  left: 47.6%;
-  width: 50px;
-  height: 50px;
-  z-index: 9;
-  background-size: 9px;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 1;
-  border-radius: 100%;
-  background-image: url(/spoekle.com/images/left-white.png);
-  background-color: #ffffff;
-}
 
 .button_thingy .img-box {
-  height: 32px;
-  width: 32px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
 }
 
 .button_thingy .img-box img {
-  height: 32px;
-  width: 32px;
+  height: 50%;
+  width: 50%;
 }
 
 /* footer section*/
