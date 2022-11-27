@@ -776,10 +776,8 @@ width: 100%;
 }
 
 .button_thingy a {
-  border: 1px solid #ffffff;
   color: #ffffff;
   border-radius: 50px;
-  margin-top: 50px;
   transition: 0.3s;
 }
 
@@ -794,8 +792,8 @@ width: 100%;
 }
 
 .button_thingy .img-box img {
-  height: 64px;
-  width: 64px;
+  height: 32px;
+  width: 32px;
 }
 
 /* footer section*/
