@@ -773,6 +773,7 @@ width: 100%;
   height: 50px;
   width: 50px;
   border-radius: 100%;
+  background-color: #ffffff;
 }
 
 .button_thingy .img-box img {
