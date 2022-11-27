@@ -778,7 +778,8 @@ width: 100%;
 .button_thingy .img-box img {
   height: 18px;
   width: 18px;
-  top: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /* footer section*/
