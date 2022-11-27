@@ -776,11 +776,9 @@ width: 100%;
 }
 
 .button_thingy .img-box img {
-  height: 9px;
-  width: 9px;
+  height: 18px;
+  width: 18px;
   top: 50%;
-  -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
 }
 
 /* footer section*/
