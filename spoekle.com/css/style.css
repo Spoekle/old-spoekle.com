@@ -752,10 +752,6 @@ width: 100%;
     font-family: "Poppins", sans-serif;
 }
 
-.button_thingy h1 {
-  font-size: 8px;
-}
-
 .button_thingy .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -773,14 +769,14 @@ width: 100%;
 
 .button_thingy .img-box {
   height: 50px;
-  width: 100px;
+  width: 50px;
   border-radius: 100%;
   background-color: #ffffff;
 }
 
 .button_thingy .img-box img {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
