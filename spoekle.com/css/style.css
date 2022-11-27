@@ -753,19 +753,37 @@ width: 100%;
 
 /* end specs section*/
 
+.button_thingy {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button_thingy .button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .button_thingy a {
-  display: inline-block;
-  padding: 8px 25px;
-  background-color: #ffffff;
   border: 1px solid #ffffff;
   color: #000000;
-  border-radius: 15px;
-  margin-top: 45px;
+  border-radius: 50px;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+
+.button_thingy a :hover {
+  border-radius: 40px;
   transition: 0.3s;
 }
 
 .button_thingy img {
   height: 64px;
+  width: 64px;
 }
 
 /* footer section*/
