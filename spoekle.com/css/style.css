@@ -426,13 +426,13 @@ width: 100%;
 .cats_hr hr {
   color: #790e0e;
   background-color: #790e0e;
-  width: 500px;
+  width: 100%;
   border: none;
   height: 2px;
 }
 
 .cats_hr {
-  width: 1000px;
+  width: 100%;
   height: 90px;
   background-color: #ffffff;
   background-image: url(../images/ree-dark-bg.png);
