@@ -321,14 +321,6 @@ ul .active {
           transform: translate(0, -50%);
 }
 
-.dark-theme .slider_section .carousel-control-next {
-  background-image: url(../images/next.png);
-  background-color: #181818;
-  top: calc(50% - 30px);
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-}
-
 /*about section stuff css wee*/
 
 .about_section {
@@ -779,6 +771,14 @@ width: 100%;
   color: #ffffff;
   border-radius: 50px;
   transition: 0.3s;
+}
+
+.button_thingy .previous {
+  background-image: url(/spoekle.com/images/left-white.png);
+  background-color: #ffffff;
+  top: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .button_thingy a :hover {
