@@ -785,9 +785,6 @@ width: 100%;
   border-radius: 100%;
   background-image: url(/spoekle.com/images/left-white.png);
   background-color: #ffffff;
-  top: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .button_thingy .img-box {
