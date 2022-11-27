@@ -432,9 +432,10 @@ width: 100%;
 }
 
 .cats_hr {
-  width: 100%;
+  width: 1000px;
   height: 90px;
   background-color: #ffffff;
+  background-image: url(../images/ree-dark-bg.png);
 }
 
 /* end cats thingy woo*/
