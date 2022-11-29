@@ -480,6 +480,10 @@ width: 100%;
   z-index: -1;
 }
 
+#anchor {
+  scroll-margin-top: 100px;
+}
+
 /*end discord widget thingy*/
 
 .games_section {
