@@ -432,6 +432,17 @@ width: 100%;
 
 /* end cats thingy woo*/
 
+/*discord widget thingy*/
+
+.discord_widget {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+/*end discord widget thingy*/
+
+
+
 .games_section {
   position: relative;
   font-family: "Poppins", sans-serif;
