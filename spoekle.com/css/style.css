@@ -469,7 +469,7 @@ width: 100%;
   transition: 0.3s;
 }
 
-.games_section::before {
+.discord_widget::before {
   content: "";
   position: absolute;
   width: 100%;
