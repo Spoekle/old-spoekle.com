@@ -3,7 +3,7 @@
 
 <head>
   <!-- Basic -->
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,22 +12,24 @@
   <meta name="description" content="The official website of Spoekle" />
   <meta name="author" content="Spoekle" />
 
-  <title>Spoekle.com | About</title>
+  <title>Spoekle.com | Settings</title>
   <link rel="icon" type="image/png" href="images/spoekle_icon.png"/>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet">
+  <!-- animations css -->
+  <link rel="stylesheet" href="stuff/animate.css/animate.css">
 </head>
 
 <body class="sub_page">
@@ -63,7 +65,7 @@
                   <a class="nav-link" href="videos.html"> videos </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="more.html"> more</a>
+                  <a class="nav-link active" href="more.html"> more</a>
                 </li>
               </ul>
             </div>
@@ -74,52 +76,98 @@
   </div>
   <!-- end header section -->
 
-  <!-- about section -->
-  <section class="about_section layout_padding">
+  <!-- button section -->
+  <section class="button_thingy layout_padding2">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="detail-box">
-            <h6>
-              About
-            </h6>
-            <div class="custom_heading-container">
-              <h2>
-                My Settings
-              </h2>
-              <hr>
+          <a href="pc-specs.html">
+            <div class="img-box">
+              <img src="images/prev.png" alt="">
             </div>
-            <p>
-              Here are my Beat Saber settings if you care about them.
-              I will include different kinds of files like camera configs, sabers, counters+ configs and more!
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/bs_logo.png" alt="beatsaber logo" style="border: 10px, rgb(18, 18, 18)">
-          </div>
+          </a>
         </div>
       </div>
-
     </div>
   </section>
-  <!-- end about section -->
+  <!-- end button section -->
 
   <!-- about section -->
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding animate__animated animate__fadeInLeft">
     <div class="container">
       <div class="row">
         <col>
         <div class="col-md-6">
-          <div class="d-flex flex-column align-items-end">
+          <div class="d-flex flex-column">
             <div class="custom_heading-container">
-              <hr>
               <h2>
               Camera2 Settings
               </h2>
+              <hr>
             </div>
               <p>I will just include a zip with all my camera presets in it. To use it, drag the contents of the zip into your "...\Beat Saber\UserData\Camera2" folder
             </p>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="read-btn">
+            <a href="download/Camera2.zip" download>
+              Download Camera2.zip
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_section layout_padding animate__animated animate__fadeInRight">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="read-btn">
+            <a href="download/spoeklehsv.json" download>
+              Download spoeklehsv.json
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex flex-column">
+            <div class="custom_heading-container">
+              <hr>
+              <h2>
+              HitScoreVisualiser Config
+              </h2>
+            </div>
+              <p>Here is my HitScoreVisualiser Config, it displays your score in another way. To use it, drag the contents of the zip into your "...\Beat Saber\UserData\HitScoreVisualiser" folder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_section layout_padding animate__animated animate__fadeInLeft">
+    <div class="container">
+      <div class="row">
+        <col>
+        <div class="col-md-6">
+          <div class="d-flex flex-column">
+            <div class="custom_heading-container">
+              <h2>
+              SaberFactory Config
+              </h2>
+              <hr>
+            </div>
+              <p>Here you will find which sabers I use when playing. To use it, drag the .saber files of the zip into your "...\Beat Saber\CustomSabers" folder and the "default" file into your
+                "...\Beat Saber\Userdata\Saber Factory\Presets" folder
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 align-items-end">
+          <div class="read-btn">
+            <a href="download/SpoekleSabers.zip" download>
+              Download SpoekleSabers.zip
+            </a>
           </div>
         </div>
       </div>
@@ -173,8 +221,7 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type='text/javascript' src='js/switch.js'></script>
-  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  <script type="text/javascript" src="js/scrollyey.js"></script>
 
 </body>
 </body>

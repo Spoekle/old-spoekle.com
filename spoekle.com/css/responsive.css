@@ -1,3 +1,18 @@
+@media (min-width: 1925px) {
+
+  .slider_section {
+    max-width: 70%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider_section .img-box {
+    max-width: 80%;
+    max-height: 100%;
+  }
+}
+
 @media (max-width: 1120px) {
 
   .quote_btn-container a {
@@ -7,6 +22,9 @@
 
 @media (max-width: 992px) {
 
+  .about_section .read-btn {
+    padding-bottom: 20px;
+  }
 
   .slider_section .slider-container {
     flex-direction: column;
@@ -22,8 +40,8 @@
   }
 
   .slider_section .img-box {
-    width: 100%;
     margin: 0;
+    width: 100%;
   }
 
   .slider_section .slider_bg-container {
@@ -85,16 +103,16 @@
     height: 100%;
   }
 
-  .portfolio_section {
+  .about_section {
     padding-top: 75px;
   }
 
-  .contact_items {
+  .socials_section {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .contact_items .item {
+  .socials_section .socials_icon {
     margin: 20px;
   }
 }
@@ -127,16 +145,6 @@
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
     left: 39%;
-  }
-
-  .subscribe_section form {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .subscribe_section form button {
-    transform: none;
-    margin-top: 15px;
   }
 
   .slider_section .detail-box h1 {

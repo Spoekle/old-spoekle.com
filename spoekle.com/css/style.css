@@ -113,10 +113,11 @@ ul .active:hover:before {
 /*end nvabar thing*/
 
 /*header section*/
-.header_section.shadow {
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
--moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+.hero_area.shadow {
+  -webkit-box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+z-index: 8;
 }
 
 .hero_area {
@@ -236,6 +237,7 @@ ul .active {
 
 /*end header section*/
 /* slider section */
+
 .slider_section .slider-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,7 +439,7 @@ width: 100%;
   width: 100%;
   height: 90px;
   background-color: #ffffff;
-  background-image: url(../images/ree-dark-bg.png);
+  background-image: url(../images/ree-dark-bg.webp);
 }
 
 /* end cats thingy woo*/
@@ -482,7 +484,7 @@ width: 100%;
   height: 60%;
   top: 0;
   left: 0;
-  background-image: url(../images/ree-dark-bg.png);
+  background-image: url(../images/ree-dark-bg.webp);
   z-index: -1;
 }
 
@@ -567,7 +569,7 @@ width: 100%;
   height: 60%;
   top: 0;
   left: 0;
-  background-image: url(../images/ree-dark-bg.png);
+  background-image: url(../images/ree-dark-bg.webp);
   z-index: -1;
 }
 
@@ -774,7 +776,7 @@ width: 100%;
   height: 60%;
   top: 0;
   left: 0;
-  background-image: url(../images/ree-dark-bg.png);
+  background-image: url(../images/ree-dark-bg.webp);
   z-index: -1;
 }
 

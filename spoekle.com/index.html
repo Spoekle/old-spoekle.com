@@ -29,11 +29,11 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <!-- animations css -->
-  <link  href="css/animate.css" rel="stylesheet" />
+  <link rel="stylesheet" href="stuff/animate.css/animate.css">
 </head>
 
 <body>
-    <div class="hero_area" id="sticky_header">
+    <div class="hero_area shadow" id="sticky_header">
     <!-- header section starts -->
     <header class="header_section">
       <div class="container-fluid">
@@ -90,15 +90,15 @@
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="sr-only">Next</span>
           </a>
-          <h1 class="animate__fadeInLeft">
+          <h1 class="animate__animated animate__fadeInLeft">
             Spoekle's <br>
             Hub <br>
           </h1>
-          <p>
+          <p class="animate__animated animate__fadeInLeft">
             It appears that you have found my website, though I am still learning and designing a bit. You are free to wander
             around!
           </p>
-          <div>
+          <div class="animate__animated animate__fadeInLeft">
             <a href="#discord" class="slider-link">
                MY DISCORD SERVER
             </a>
@@ -134,7 +134,7 @@
   </div>
 
   <!-- about section -->
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding animate__animated">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -151,16 +151,16 @@
             <p>
               Ello, I am Spoekle. If you want to learn more about me and about what I do in life,
               you should check out my about page :D
-            <div>
-              <a href="about.html" class="layout_padding2">
-                Read More
-              </a>
-            </div>
+              <div class="read-btn">
+                <a href="download/Camera2.zip" download>
+                  Download Camera2.zip
+                </a>
+              </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/spoekle.png" alt="" style="border: 10px, rgb(18, 18, 18)">
+            <img src="images/spoekle.webp" alt="" style="border: 10px, rgb(18, 18, 18)">
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@
 
   <section class="games_section layout_padding">
     <div class="container">
-      <div class="d-flex flex-column align-items-end">
+      <div class="d-flex flex-column align-items-end animate__animated">
         <div class="custom_heading-container">
           <hr>
           <h2>
@@ -284,42 +284,42 @@
         <div class="row">
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/DHkdijOWv4o">
               </iframe> 
             </div>
           </div>
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/s4Y6xlrVOmo">
               </iframe> 
             </div>
           </div>
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/hRtGiUlZr0c">
               </iframe> 
             </div>
           </div>
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/WQ4H4ShfHfs">
               </iframe> 
             </div>
           </div>
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/UeL-laJZwQI">
               </iframe> 
             </div>
           </div>
           <div class="col-md-auto">
             <div class="img-box">
-              <iframe width="320" height="180"
+              <iframe width="320" height="180" loading="lazy"
               src="https://www.youtube.com/embed/klzH_bEW9zc">
               </iframe> 
             </div>
@@ -447,7 +447,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <iframe src="https://discord.com/widget?id=788531304048230420&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" align="right"></iframe>
+          <iframe src="https://discord.com/widget?id=788531304048230420&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" loading="lazy" align="right"></iframe>
         </div>
       </div>
     </div>
@@ -500,7 +500,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type='text/javascript' src='js/switch.js'></script>
+  <script type='text/javascript' src='js/animation.js'></script>
+  
 
 
 </body>
