@@ -8,6 +8,10 @@ body {
   background: rgb(13, 13, 13);
 }
 
+iframe {
+  display:block;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
