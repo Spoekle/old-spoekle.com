@@ -19,7 +19,6 @@
     display: none;
   }
 }
-
 @media (max-width: 992px) {
 
   .about_section .read-btn {
@@ -84,6 +83,14 @@
 
   .games_section::before {
     height: 100%;
+  }
+
+  .discord_widget::before {
+    height: 70%;
+  }
+  .discord_widget iframe::before {
+    width: 500px;
+    height: 300px;
   }
 
   .specs_section .specs_container {

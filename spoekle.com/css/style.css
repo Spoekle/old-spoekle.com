@@ -12,6 +12,19 @@ iframe {
   display:block;
 }
 
+.iframe_padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.video_section .iframe {
+  display:block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
