@@ -122,6 +122,11 @@
   .socials_section .socials_icon {
     margin: 20px;
   }
+
+  .video_section .iframe iframe {
+    width: 100px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 768px) {
